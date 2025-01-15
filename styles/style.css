@@ -55,7 +55,7 @@ body {
 .img {
     height: 100%;
     width: 50%;
-    background-image: url("../assets/vagabond.jpg");
+    background-image: url("../assets/vagabond.jpg") !important;
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -165,16 +165,16 @@ input {
     }
 }
 
-.link:nth-child(2):hover {
+/* .link:nth-child(2):hover {
     box-shadow: 0rem 0rem 4rem #1DB954;
     transition: all ease-in-out 0.2s;
     .icon {
         color: #1DB954;
         transition: all ease-in-out 0.5s;
     }
-}
+} */
  
-.link:nth-child(3):hover {
+.link:nth-child(2):hover {
     box-shadow: 0rem 0rem 4rem #FF5700;
     transition: all ease-in-out 0.2s;
     .icon {
@@ -183,7 +183,7 @@ input {
     }
 }
 
-.link:nth-child(4):hover {
+.link:nth-child(3):hover {
     box-shadow: 0rem 0rem 4rem #0e76a8 ;
     transition: all ease-in-out 0.2s;
     .icon {
@@ -192,11 +192,11 @@ input {
     }
 }
 
-.link:nth-child(5):hover {
+.link:nth-child(4):hover {
     box-shadow: 0rem 0rem 4rem #f2e9e4 ;
     transition: all ease-in-out 0.2s;
     .icon {
-        color: #24292e ;
+        color: #575655 ;
         transition: all ease-in-out 0.5s;
     }
 }
